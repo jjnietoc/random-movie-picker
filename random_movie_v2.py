@@ -84,7 +84,6 @@ lists = test.joinAndSlice()
 #test result 3: todo ok, devuelve un elemento de la lista = pelicula y su info
 randomizer = randomMovieEngine(lists)
 test2 = randomizer.randomMoviePick()
-print(test2)
 
 #test final: todo ok! te da una pelicula al azar
 myMovie = Movie(test2)
