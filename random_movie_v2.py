@@ -48,7 +48,7 @@ class listWorker:
         movies = [join_list[x:x+4]for x in range(0, len(join_list), 4)]
         return movies
            
-class randomMovieEngine:
+class RandomMovieEngine:
     def __init__(self, source):
         self.source = source
 
@@ -82,7 +82,7 @@ test = listWorker(movie_list, release_list, added_list, url_list)
 lists = test.joinAndSlice()
 
 #test result 3: todo ok, devuelve un elemento de la lista = pelicula y su info
-randomizer = randomMovieEngine(lists)
+randomizer = RandomMovieEngine(lists)
 test2 = randomizer.randomMoviePick()
 
 #test final: todo ok! te da una pelicula al azar
